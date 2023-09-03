@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(46, 46, 47);
+    color: white;
+}
+aside{
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+aside .h1{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    
+}
+aside ul li{
+    list-style: none;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    font-style: none;
+    transition:  .6s ease;
+}
+
+aside ul li:hover{
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alert {
+    width: 60%;
+
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    margin:  0px;
+}

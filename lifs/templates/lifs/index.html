@@ -1,0 +1,18 @@
+{% extends 'safe/layout.html' %}
+
+{%block title%}
+index sahifa
+{%endblock%}
+
+{%block content%}
+<div class="features">
+    <h1>LIFS</h1>
+    {% for el in lifs%}
+    <div class="alert alert-warning">
+        <h3>{{el.title}}</h3>
+        <h4> {{ el.anons}}</h4>
+        <p>{{el.full_text}}</p>
+    </div>
+    {% endfor %}
+</div>
+{%endblock%}
